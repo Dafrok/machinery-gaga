@@ -18,7 +18,6 @@ export class repeat extends plugin {
     })
   }
 
-  /** 接受内容 */
   repeat (e) {
     if (!e.group_id) {
       return
